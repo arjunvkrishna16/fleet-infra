@@ -2,10 +2,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: new-pod
+  name: production
   namespace: flux-system
 spec:
   interval: 1m0s
   ref:
     branch: master
-  url: https://github.com/arjunvkrishna16/fluc-cd.git
+  url: https://github.com/arjunvkrishna16/fleet-infra
