@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30m0s
-  path: ./home/arjun_vk/k8s/flux/fleet-infra/clusters/my-cluster
+  path: ./clusters/my-cluster
   prune: true
   retryInterval: 2m0s
   sourceRef:
